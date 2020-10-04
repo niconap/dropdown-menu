@@ -1,4 +1,4 @@
-const Show = function (menuclass, buttonid, image1, image2) {
+const Menu = function (menuclass, buttonid, image1, image2) {
   this.menu = menuclass;
   this.button = buttonid;
   this.toggle = false;
@@ -25,7 +25,7 @@ const Show = function (menuclass, buttonid, image1, image2) {
   };
 };
 
-const s = new Show(
+const s = new Menu(
   document.getElementsByClassName("menu-item"),
   document.getElementById("hamburger"),
   "Hamburger_icon.svg.png",
